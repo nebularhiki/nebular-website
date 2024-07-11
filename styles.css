@@ -1,0 +1,89 @@
+/* Catppuccin theme colors */
+:root {
+    --background: #1E1E2E;
+    --surface: #282838;
+    --text: #D9E0EE;
+    --muted: #636994;
+    --accent: #F38BA8;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0 2rem; /* Large left and right margins */
+  }
+  
+  header, main, footer {
+    padding: 2rem; /* Padding for content inside sections */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--accent);
+  }
+  
+  a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent);
+  }
+  
+  /* Other styles as per your requirements */
+  
+  /* Basic CSS file outline */
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Layout */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: var(--surface);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  /* Main content */
+  main {
+    padding: 2rem 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--surface);
+    padding: 1rem;
+    text-align: center;
+  }
