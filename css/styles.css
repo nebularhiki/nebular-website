@@ -16,6 +16,14 @@
   header, main, footer {
     padding: 1rem; /* Padding for content inside sections */
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--accent);
+  }
+  
+  h1, h2 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
   
   h3 {
     display: block;
@@ -25,15 +33,6 @@
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: var(--accent);
-  }
-  
-  h1, h2 {
-    max-width: 960px;
-    margin: 0 auto;
   }
 
   a {
